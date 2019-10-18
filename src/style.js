@@ -29,6 +29,9 @@ export const GlobalStyle = createGlobalStyle`
     body {
       line-height: 1;
     }
+    body,html{
+      height:100%;
+    }
     ol, ul {
       list-style: none;
     }
@@ -43,5 +46,8 @@ export const GlobalStyle = createGlobalStyle`
     table {
       border-collapse: collapse;
       border-spacing: 0;
+    }
+    #root,#App{
+      height:100%;
     }
 `;

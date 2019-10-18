@@ -5,7 +5,6 @@ import {WriterWrapper,WriterTitle,WriterItem,WriterItemInfo} from "../style"
 class Writer extends Component{
   render(){
     const {list} = this.props;
-    console.log(list.toJS());
     return (
       <WriterWrapper>
         <WriterTitle>
